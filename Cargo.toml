@@ -1,0 +1,13 @@
+[package]
+name = "simplerror"
+version = "1.0.0"
+edition = "2021"
+authors = ["conduition <conduition@proton.me>"]
+description = "A zero-dep macro to declaratively define error enum types and their common trait implementations."
+readme = "README.md"
+license = "Unlicense"
+repository = "https://github.com/conduition/simplerror"
+keywords = ["enum", "error", "macro", "derive", "declare"]
+
+[dependencies]
+# None!
