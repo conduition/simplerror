@@ -61,6 +61,8 @@ macro_rules! declare {
                 }
             }
 
+            impl core::error::Error for $enum_name {}
+
             $(
                 // Implement From<$inner_type> for $enum_name::$member where applicable
                 $($crate::internal_impl_enum_from!($enum_name, $member($($inner_type),+));)?
