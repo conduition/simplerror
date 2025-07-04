@@ -1,6 +1,6 @@
 [package]
 name = "simplerror"
-version = "1.0.0"
+version = "1.1.0"
 edition = "2021"
 authors = ["conduition <conduition@proton.me>"]
 description = "A zero-dep macro to declaratively define error enum types and their common trait implementations."
